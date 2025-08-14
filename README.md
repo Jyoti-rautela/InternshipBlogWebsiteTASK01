@@ -13,10 +13,15 @@ mkdir mern-blog && cd mern-blog
 
 ### 2.1 Backend (Express + Mongoose)
 mkdir backend && cd backend
+
 npm init -y
+
 npm i express mongoose cors morgan dotenv
+
 # dev-only
+
 npm i -D nodemon
+
 
 
 Add scripts to `backend/package.json`:
@@ -55,15 +60,21 @@ Create folders & files:
 
 ### 3.1 Start Backend
 cd backend
+
 npm install
+
 npm run dev
+
 # Server listens on http://localhost:5000
 
 
 ### 3.2 Start Frontend
 cd frontend
+
 npm install
+
 npm run dev
+
 # Vite dev server on http://localhost:5173
 
 
