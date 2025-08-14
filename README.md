@@ -34,9 +34,13 @@ Create files:
 
 ### 2.2 Frontend (React + Vite)
 cd ..
+
 npm create vite@latest frontend -- --template react
+
 cd frontend
+
 npm i
+
 npm i react-router-dom axios bootstrap
 
 
